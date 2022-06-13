@@ -113,8 +113,8 @@ var LZString={_keyStr:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234
   --accent3: #ff3366;
   /* dark mode */
   --dm-bg: #000;
-  --dm-text: #DCDCDC;
-  --dm-link: whitenote;
+  --dm-text: #fff8e7;
+  --dm-link: #fff8e7;
   --dm-accent: #1a1a1a;
   --dm-accent2: #111111;
 }
@@ -174,7 +174,7 @@ a:hover {
   border: 1px solid var(--accent);
   border-radius: 5px;
   background-color: transparent;
-  color: black;
+  color: var(--text);
   padding: 1em;
   margin-top: .1em;
 }
@@ -188,6 +188,7 @@ a:hover {
 }
 .dm .choice {
   border: 1px solid var(--dm-accent);
+  color: var(--text);
 }
 .dm .choice:hover {
   background-color: var(--dm-accent);
